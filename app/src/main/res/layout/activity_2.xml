@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:id="@+id/quiz_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="question1"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Which of these global organisation is reponsible for environmental problems among United Nations agencies?"
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question1_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="UNN" />
+
+            <RadioButton
+                android:id="@+id/question1_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="WHO" />
+
+            <RadioButton
+                android:id="@+id/question1_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="UNEP" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question2_answer"
+            android:paddingTop="10dp"
+            android:text="question2"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="What is the color of the sea?"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/question2_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="question3"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Which of the following activity is harmful to the environment? (select all that apply)"
+            android:textSize="18sp" />
+
+
+        <CheckBox
+            android:id="@+id/question3_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bush Burning" />
+
+        <CheckBox
+            android:id="@+id/question3_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farming" />
+
+        <CheckBox
+            android:id="@+id/question3_option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waste Littering" />
+
+        <CheckBox
+            android:id="@+id/question3_option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farming" />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question4_answer"
+            android:paddingTop="10dp"
+            android:text="question4"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="What is the color of a leaf?"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/question4_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="question5"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Where is the headquarter of United Nations Environment Programme (UNEP) situated? "
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question5_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New York" />
+
+            <RadioButton
+                android:id="@+id/question5_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nairobi" />
+
+            <RadioButton
+                android:id="@+id/question5_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="London" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question5_answer"
+            android:paddingTop="10dp"
+            android:text="question6"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="What is the shape of the earth?"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/question6_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="question7"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="What occupys majorly the earth? "
+            android:textSize="18sp" />
+
+
+        <CheckBox
+            android:id="@+id/question7_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Man" />
+
+        <CheckBox
+            android:id="@+id/question7_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animal" />
+
+        <CheckBox
+            android:id="@+id/question7_option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water" />
+
+        <CheckBox
+            android:id="@+id/question7_option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Land" />
+
+
+        <TextView
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question8_answer"
+            android:paddingTop="10dp"
+            android:text="question8"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Where is the sun located?"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/question8_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/question9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="question9"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="What is water made of? "
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question9_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sand" />
+
+            <RadioButton
+                android:id="@+id/question9_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H2O" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question10_answer"
+            android:paddingTop="10dp"
+            android:text="question10"
+            android:textAllCaps="true"
+            android:textColor="#32cd32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="What is the color of the sky?"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/question10_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="submitAnswers"
+            android:text="submit" />
+
+    </LinearLayout>
+</ScrollView>
